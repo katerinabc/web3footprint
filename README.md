@@ -14,9 +14,34 @@ While I'm entering and exiting Discord servers I was wondering what footprint I 
 *WIP*
 Combination of growth of social capital, complexity of messages, depth and breath of discussed topics (breath = Blau index of keywords, depth = # of posts on topic x; breath could also just be number of topics), sentiment.
 
+
+### Variables for reputation score
+- Number of contributions (activity)
+- Validation of contributions: Ratio of how many posts got a reply (not possible with discord dumb)
+- Sentiment of contributions (-1 to +1)
+- Number of connections (dm, guilds)
+
+### Generalist vs specialist score
+- Diversity of expertise (Blau Index)
+- 
+
+
+
+- Closure positive impact (# of closed triangles) --> but given I have an ego-network this will be hard
+- Reciprocal 
+
 ## Installation
 
 ## TODO
-- extract number of servers from discord dumb
-- extract number of people from messages
+DONE extract number of people from messages 
+*I got the list of names, but not saving IDs. this will be necessary for matching messages in guilds to people if I want to do that* 
+DONE extract number of servers from discord dumb 
+- create a file: guild, channel, number msg in channel
 - explore: messages X time, messages X people, LDA
+- not sure if necessary but might be funny fact: used emojis. I think it's stored in account. i saw it when scanning one of hte json files..
+
+https://support.discord.com/hc/en-us/articles/360004957991-Your-Discord-Data-Package
+
+
+## Questions
+- DM text not stored ?? --> yes it's stored in message folder
